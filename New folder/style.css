@@ -1,0 +1,48 @@
+
+
+
+.grid-container{
+    display: grid;
+
+    grid-template: "header header sidebar" 100px
+                    "banner banner sidebar" 50px
+                    "mBody mBody sidebar" 300px
+                    "footer footer sidebar" 80px / auto auto auto;
+
+}
+
+
+.grid-item1 {
+    display: grid;
+    grid-area: header;
+    background-color: pink;
+}
+
+
+.grid-item2{
+    display: grid;
+    grid-area: banner;
+    background-color: lightblue;
+}
+
+.grid-item3{
+    display: grid;
+    grid-area: mBody;
+    background-color: greenyellow;
+}
+
+
+.grid-item5 {
+    display: grid;
+    grid-area: sidebar;
+    background-color: orangered;
+}
+
+.grid-item4{
+    display: grid;
+    grid-area: footer;
+    background-color: grey;
+}
+
+
+
